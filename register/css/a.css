@@ -37,7 +37,8 @@ form{
 .form-field{
 }
 label{
-	color: #166961;
+	color: #2c264a;
+	font-family: sans-serif!important;
 	font-style: italic;
 	font-weight: bold;
 }

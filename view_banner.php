@@ -21,8 +21,8 @@ a:hover{
                 <li>
                     <a href="index.php">Home</a>
                 </li>
-                <li><a href="candidate_path.php">Candidates</a></li>
-                <li> <a href="register/index.php">Register</a></li>
+                <!-- <li><a href="candidate_path.php">Candidates</a></li>
+                <li> <a href="register/index.php">Register</a></li> -->
                 <li><a href="login.php">Login</a></li>
             </ul>
         </nav>

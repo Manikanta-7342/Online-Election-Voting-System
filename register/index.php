@@ -19,20 +19,6 @@
                                 <div class="form-heading">
                          		<center>Voter Registeration</center>
                          		</div>
-											<div class="form-field">
-												<label>Voter ID</label><br/>
-												<input class ="form-control" type = "text" name = "id_number" placeholder = "Voter ID" required="true">
-													
-											</div>
-											
-											<div class="form-field">											
-												<label>Password</label><br/>
-													<input class="form-control"  type = "password" name = "password" id = "pass" placeholder="Password" required="true"/>
-											</div>
-											<div class="form-field">											
-												<label>Retype Password</label><br/>
-													<input class="form-control"  type = "password" name = "password1" id = "pass" placeholder="Retype Password" required="true"/>
-											</div>
 
 											<div class="form-field">
 												<label>First Name</label><br/>
@@ -57,7 +43,25 @@
 												    <input type="number" class="form-control" name="Age" placeholder="Enter Age">
 													
 											</div>
+											<div class="form-field">
+												<label>Phone Number</label><br/>
+												<input class ="form-control" type = "number" name = "id_number" placeholder = "Phone Number" required="true">
+													
+											</div>
+											<div class="form-field">
+												<label>Email</label><br/>
+												<input class ="form-control" type = "email" name = "email" placeholder = "Email" required="true">
+													
+											</div>
 
+											<div class="form-field">											
+												<label>Password</label><br/>
+													<input class="form-control"  type = "password" name = "password" id = "pass" placeholder="Password" required="true"/>
+											</div>
+											<div class="form-field">											
+												<label>Retype Password</label><br/>
+													<input class="form-control"  type = "password" name = "password1" id = "pass" placeholder="Retype Password" required="true"/>
+											</div>
 
 												<br/>					
 											 	 <center><button name = "save" type="submit">Create My Account</button></center>
@@ -85,7 +89,7 @@
             <!-- /.row -->
         </div>
         <!-- /#page-wrapper -->
-        <?php 
+        </?php 
         include ('footer.php');
         ?>
 
