@@ -7,7 +7,7 @@
     <?php include 'slider.php';?>
 
     <?php    
-        include ('footer.php');
+        //include ('footer.php');
         ?>
 
    </body>

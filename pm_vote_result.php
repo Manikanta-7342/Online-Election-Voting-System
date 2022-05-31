@@ -23,7 +23,7 @@
         <div class="col-lg-8" style="margin-left:25%; margin-right:25%;">
             <div class="alert alert-info">
                 <div class="panel-heading">
-                    <center>Prime Minister</center>
+                    <center>Carnatic Vocal</center>
                 </div>
                 <br />
                 <?php
@@ -62,6 +62,6 @@
 </body>
 
 <?php include ('script.php');
-include ('footer.php');?>
+//include ('footer.php');?>
 
 </html>
