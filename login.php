@@ -17,11 +17,11 @@
                     <div class="form-panel"><center>
                         <i>Login As:</i>
                         <select onchange = "page(this.value)">
-                            <option value = "voting-mani.herokuapp.com/admin/index.php">System Admin</option>
+                            <option value = "admin/index.php">System Admin</option>
                             <option value = "admin2/index.php">System User</option>
                             <option selected disables>Voter</option> 
                         </select>
-                        <p/>
+                        
                     </center>
                         <form role="form" method = "post" enctype = "multipart/form-data" class="index-form">
                             <div class="form-heading" style="font-weight: bold;
