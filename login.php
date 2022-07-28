@@ -17,7 +17,7 @@
                     <div class="form-panel"><center>
                         <i>Login As:</i>
                         <select onchange = "page(this.value)">
-                            <option value = "admin/index.php">System Admin</option>
+                            <option value = "voting-mani.herokuapp.com/admin/index.php">System Admin</option>
                             <option value = "admin2/index.php">System User</option>
                             <option selected disables>Voter</option> 
                         </select>
