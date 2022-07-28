@@ -4,12 +4,11 @@
 	<?php include 'side_bar.php'; ?>
     <div id="wrapper">
     </div>
-	<button><a href="vote1.php">Back</a></button>
 	<form method = "POST" action = "pm_vote_result.php">
 	<div class="col-lg-6">
 	
                     <div class="panel panel-primary">
-                        <div class="panel-heading" style="background-color: #e0ab68;"><center>
+                        <div class="panel-heading" style="background-color: #166961;"><center>
 						Carnatic Vocal</center>
                         </div>
                         <div class="panel-body" style = "background-color:; display:flex;">
@@ -37,14 +36,14 @@
 
      <hr/>
 		
-		<center><button class = "btn btn-success ballot" type = "submit" name = "submit" style="background-color: #2c264a;">Submit Ballot</button></center>
+		<center><button class = "btn btn-success ballot" type = "submit" name = "submit" style="background-color: #166961;">Submit Ballot</button></center>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		</form>
 		
 		
 </body>
 <?php include ('script.php');
-//include ('footer.php');?>
+include ('footer.php');?>
   
   <script type = "text/javascript">
 		$(document).ready(function(){

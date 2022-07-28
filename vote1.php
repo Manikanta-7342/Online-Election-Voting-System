@@ -6,8 +6,6 @@
 
 
         <?php include ('view_banner.php');?>
-        
-            <button><a href="logout.php">Logout</a></button>
 
         <div id="page-wrapper">
 
@@ -29,9 +27,9 @@
 
     </div>
     <!-- /#wrapper -->
-    <!-- </?php    
+    <?php    
         include ('footer.php');
-        ?> -->
+        ?>
 
     <script>
         function page(src) {

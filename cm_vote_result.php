@@ -39,7 +39,7 @@
         <div class="col-lg-8" style="margin-left:25%; margin-right:25%;">
             <div class="alert alert-success">
                 <div class="panel-heading">
-                    <center>Hindustani Vocal</center>
+                    <center>Chief Minister</center>
                 </div>
                 <br />
                 <?php
@@ -78,6 +78,6 @@
 </body>
 
 <?php include ('script.php');
-//include ('footer.php');?>
+include ('footer.php');?>
 
 </html>
