@@ -16,13 +16,8 @@
 					
                 </div>
 				
-                <button class="btn btn-success" data-toggle="modal" data-target="#myModal1">Add Category</button>
-                <?php include ('add_category.php');?>
-                
 				<button class="btn btn-success" data-toggle="modal" data-target="#myModal">Add Candidate</button>
 				<?php include ('add_candidate_modal.php');?>
-
-                
                  <a href="candidate_excel.php"><button type="button" style = "margin-right:14px;" id ="print" class = "pull-right btn btn-info"><i class = "fa fa-print"></i>Export to Excel</button></a>
                 
                 <!-- /.col-lg-12 -->
