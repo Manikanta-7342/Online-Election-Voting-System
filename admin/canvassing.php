@@ -34,11 +34,10 @@
 											$bool = false;
 											$query = $conn->query("SELECT * FROM category ORDER BY category_id DESC");
 												 while($row = $query->fetch_array()){
-													
+													$category_id=$row['category_id'];
 										?>
 								
 								<option><?php echo $row ['category'];?></option>
-                                
 								
 								<?php } ?>
                             <!-- <option>Carnatic Vocal</option>
@@ -58,22 +57,15 @@
 
 
                         <table class="table table-striped table-bordered table-hover ">
-                            <?php 
-											require 'dbcon.php';
-                                            
-											$query_1 = $conn->query("SELECT * FROM category ");
-                                            while($row = $query_1->fetch_array()){
-													$category=$row['category'];
-                                ?>
-                    <thead>
-                                <td style="width:600px;" class="alert alert-success">Candidate for <?php echo $row ['category'];?>  </td>
+                            <thead>
+                                <td style="width:600px;" class="alert alert-success">Candidate for Carnatic Vocal</td>
                                 <td style="width:200px;" class="alert alert-success">Image</td>
                                 <td class="alert alert-success">Total</td>
-    </thead>        
-										
-			<?php
-			require 'dbcon.php';
-			$query = $conn->query("SELECT * FROM candidate WHERE Category = '$category'");
+
+                            </thead>
+                            <?php
+		require 'dbcon.php';
+			$query = $conn->query("SELECT * FROM candidate WHERE Category = 'Carnatic Vocal'");
 		while($fetch = $query->fetch_array())
 		{
 			$id = $fetch['candidate_id'];
@@ -85,7 +77,7 @@
                                 <td><?php echo $fetch ['firstname']. " ".$fetch ['lastname'];?></td>
                                 <td><img src="<?php echo $fetch ['img'];?>" style="width:40px; height:40px; border-radius:500px; ">
                                 <td style="width:20px; text-align:center"><button class="btn btn-primary" disabled><?php echo $fetch1 ['total'];?></button> </td>
-                                <?php }}?>
+                                <?php }?>
                             </tbody>
 
 
@@ -93,14 +85,14 @@
 
 
 
-                         <!-- <table class="table table-striped table-bordered table-hover ">
+                        <table class="table table-striped table-bordered table-hover ">
                             <thead>
                                 <td style="width:600px;" class="alert alert-success">Candidate for Hindustani Vocal</td>
                                 <td style="width:200px;" class="alert alert-success">Image</td>
                                 <td class="alert alert-success">Total</td>
 
                             </thead>
-                            </?php
+                            <?php
 			require 'dbcon.php';
 			$query = $conn->query("SELECT * FROM candidate WHERE Category = 'Hindustani Vocal'");
 		while($fetch = $query->fetch_array())
@@ -111,16 +103,16 @@
 			
 	?>
                             <tbody>
-                                <td></?php echo $fetch ['firstname']. " ".$fetch ['lastname'];?></td>
-                                <td><img src="</?php echo $fetch ['img'];?>" style="width:40px; height:40px; border-radius:500px; ">
-                                <td style="width:20px; text-align:center"><button class="btn btn-primary" disabled></?php echo $fetch1 ['total'];?></button> </td>
-                                </?php }?>
+                                <td><?php echo $fetch ['firstname']. " ".$fetch ['lastname'];?></td>
+                                <td><img src="<?php echo $fetch ['img'];?>" style="width:40px; height:40px; border-radius:500px; ">
+                                <td style="width:20px; text-align:center"><button class="btn btn-primary" disabled><?php echo $fetch1 ['total'];?></button> </td>
+                                <?php }?>
                             </tbody>
 
 
                         </table><option></option>
-								<option></option> -->
-                    <!--
+								<option></option>
+
 
                         <table class="table table-striped table-bordered table-hover ">
                             <thead>
@@ -129,7 +121,7 @@
                                 <td class="alert alert-success">Total</td>
 
                             </thead>
-                            </?php
+                            <?php
 		require 'dbcon.php';
 		$query = $conn->query("SELECT * FROM candidate WHERE Category = 'Kuchpudi'");
 		while($fetch = $query->fetch_array())
@@ -140,10 +132,10 @@
 			
 	?>
                             <tbody>
-                                <td></?php echo $fetch ['firstname']. " ".$fetch ['lastname'];?></td>
-                                <td><img src="</?php echo $fetch ['img'];?>" style="width:40px; height:40px; border-radius:500px; ">
-                                <td style="width:20px; text-align:center"><button class="btn btn-primary" disabled></?php echo $fetch1 ['total'];?></button> </td>
-                                </?php }?>
+                                <td><?php echo $fetch ['firstname']. " ".$fetch ['lastname'];?></td>
+                                <td><img src="<?php echo $fetch ['img'];?>" style="width:40px; height:40px; border-radius:500px; ">
+                                <td style="width:20px; text-align:center"><button class="btn btn-primary" disabled><?php echo $fetch1 ['total'];?></button> </td>
+                                <?php }?>
                             </tbody>
                      </table>
 
@@ -154,7 +146,7 @@
                                 <td class="alert alert-success">Total</td>
 
                             </thead>
-                            </?php
+                            <?php
 		require 'dbcon.php';
 		$query = $conn->query("SELECT * FROM candidate WHERE Category = 'Bharatanatyam'");
 		while($fetch = $query->fetch_array())
@@ -165,13 +157,13 @@
 			
 	?>
                             <tbody>
-                                <td></?php echo $fetch ['firstname']. " ".$fetch ['lastname'];?></td>
-                                <td><img src="</?php echo $fetch ['img'];?>" style="width:40px; height:40px; border-radius:500px; ">
-                                <td style="width:20px; text-align:center"><button class="btn btn-primary" disabled></?php echo $fetch1 ['total'];?></button> </td>
-                                </?php }?>
+                                <td><?php echo $fetch ['firstname']. " ".$fetch ['lastname'];?></td>
+                                <td><img src="<?php echo $fetch ['img'];?>" style="width:40px; height:40px; border-radius:500px; ">
+                                <td style="width:20px; text-align:center"><button class="btn btn-primary" disabled><?php echo $fetch1 ['total'];?></button> </td>
+                                <?php }?>
                             </tbody>
 
-                        </table> -->
+                        </table>
 
 
 
