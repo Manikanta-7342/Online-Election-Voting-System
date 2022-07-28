@@ -41,7 +41,7 @@ form .btn-block{
 }
 .form-heading{
 	font-weight: bold;
-	background-color:#e0ab68; 
+	background-color:#166961; 
 	font-size: 20px;
 	color: white;	
 	border-top-left-radius: 5px;
@@ -60,15 +60,15 @@ form input{
 label{
 	font-style: italic;
 	font-size: large;
-	color: #2c264a;
+	color: #166961;
 }
 button{
 	font-size: larger;
-	/*background-color: ;*/
+	background-color: ;
 	cursor: pointer;
 	height: 40px;
 	border-style: solid;
-	border-color: #2c264a;
+	border-color: #166961;
 	border-width: thin;
 	border-radius: 5px;
 

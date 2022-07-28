@@ -1,6 +1,6 @@
 
             <div class="side-bar" 
-            style="background-color: #e0ab68; font-size:25px; text-align:center; margin-top:-10px; padding-top:20px;">
+            style="background-color: #166961; font-size:25px; text-align:center; margin-top:-10px; padding-top:20px;">
 
                 <a href="#" style="color:white; font-weight:bold; font-size:30px;">2021 Online Elections Registeration</a>
                 </a>
